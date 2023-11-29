@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper{
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-content: center;
+  row-gap: 3vh;
+  background-color: #333;
+}
+
+.button{
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-family: 'Roboto Mono', serif;
+  font-size: 24px;
+  transition: background-color .2s ease;
+}
+
+.button:hover{
+  background-color: #bababa;
+}
